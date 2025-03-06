@@ -14,7 +14,7 @@ public class QuadraticEquationTest {
 
         QuadraticEquation equation = new QuadraticEquation(a,b,c);
         equation.getRoot12();
-        System.out.println("The discriminant of the equation is >>> "+equation.getDiscriminant());
+        System.out.println("The discriminant of  the equation is >>> "+equation.getDiscriminant());
         System.out.println("The equation is >>> "+equation.getRoot1());
         System.out.println("The equation is >>> "+equation.getRoot2());
     }
